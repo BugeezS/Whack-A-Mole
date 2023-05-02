@@ -7,7 +7,7 @@ body {
 .game_zone {
   width: 1200px;
   height: 800px;
-  border: 3px solid red;
+  background-color: grey;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -17,10 +17,17 @@ body {
   &__div {
     width: 250px;
     height: 250px;
-    background-color: red;
     border: 1px solid black;
     border-radius: 50%;
-    background-image: url(/img/80967207.jpeg);
+    background-color: white;
     background-size: contain;
   }
+}
+.scoreboard {
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+.taupe {
+  background-color: blue;
 }
