@@ -10,7 +10,13 @@
   <body>
     <div>
       <h2>Whack-A-Mole</h2>
-      <div id="scoreboard">0</div>
+      <div id="scoreboard"><span>Your score is </span>0</div>
+      <select id="interval-select">
+        <option value="500">0.5 seconds</option>
+        <option value="1000">1 second</option>
+        <option value="2000">2 seconds</option>
+        <option value="5000">5 seconds</option>
+      </select>
     </div>
     <section class="game_zone"></section>
     <script src="assets/js/script.js" type="module"></script>
