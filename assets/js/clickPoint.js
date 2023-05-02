@@ -6,7 +6,7 @@ export function clickPoint() {
   }
   point++;
   const scoreboard = document.getElementById("scoreboard");
-  scoreboard.textContent = point;
+  scoreboard.textContent = "Your score is" + point;
   console.log(point);
   this.classList.remove("taupe");
 }
