@@ -1,5 +1,12 @@
+let point = 0;
+
 export function clickPoint() {
-  const point = 0;
-  point + 1;
+  if (!this.classList.contains("taupe")) {
+    return;
+  }
+  point++;
+  const scoreboard = document.getElementById("scoreboard");
+  scoreboard.textContent = point;
   console.log(point);
+  this.classList.remove("taupe");
 }
